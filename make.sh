@@ -28,8 +28,8 @@ if [ -d "${workspace}/LIFT" ] || [ -d "${workspace}/LIFT_ALL_IN_ONE" ]; then
 elif [ -d "${workspace}/R5" ]; then
     gnome-terminal --title="r5" -- bash -c "cd ${workspace}/R5/00-sh/ROS/; bash 01make.sh; bash 02make.sh; exec bash"
     sleep 1
-    gnome-terminal --title="x5" -- bash -c "cd ${workspace}/ARX_X5/00-sh/ROS/; bash 01make.sh; bash 02make.sh; exec bash"
-    sleep 1
+    # gnome-terminal --title="x5" -- bash -c "cd ${workspace}/ARX_X5/00-sh/ROS/; bash 01make.sh; bash 02make.sh; exec bash"
+    # sleep 1
 else
     echo "SDK not found" >&2
 
