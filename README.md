@@ -411,7 +411,15 @@ len(actions)  : 612
 
 Saving: 1.1 secs. /home/tars/ARX_PLAY/mobile_aloha/datasets/episode_0
 ```
-### 6. visualize the dataset
+### 6. check the data
+```
+python mobile_aloha/check_data.py
+```
+### 7. replay the data
+```
+python mobile_aloha/replay.py
+```
+### 8. visualize the dataset
 ```
 cd ~/ARX/ARX_PLAY/mobile_aloha
 python visualize_episodes.py --datasets '/home/tars/ARX_PLAY/mobile_aloha/datasets'
@@ -426,7 +434,7 @@ Saved qpos plot to: /home/tars/ARX_PLAY/mobile_aloha/datasets/episode_0_qvel.png
 Saved gpos plot to: /home/tars/ARX_PLAY/mobile_aloha/datasets/episode_0_gpos.png
 Saved effort plot to: /home/tars/ARX_PLAY/mobile_aloha/datasets/episode_0_action_base.png
 ```
-### 7. dataset
+### 9. dataset
 #### 1. episode_0_action_base.png
 
 <img src='img/6.png' width='70%'>
